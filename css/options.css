@@ -1,0 +1,121 @@
+@charset "UTF-8";
+#custom-next-page-options {
+	*zoom: 1;
+}
+#custom-next-page-options:after {
+	display: table;
+	clear: both;
+	content: "";
+}
+#custom-next-page-options .form-table {
+	margin: 0;
+}
+#custom-next-page-options th {
+	padding: 15px 10px;
+}
+
+#custom-next-page-options form,
+#options-nav {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	background-color: #fff;
+}
+#custom-next-page-options form {
+	margin: 20px 0 0;
+	border: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+#custom-next-page-options div.submit {
+	text-align: center;
+	margin: 0;
+	border-top: 1px solid #e5e5e5;
+	padding: 7px 0;
+	clear: both;
+}
+#custom-next-page-options div.submit h2 {
+	display: none;
+}
+#custom-next-page-options div.submit p {
+	margin: 0 10px;
+	display: inline;
+}
+
+#options-nav {
+	width: 200px;
+	margin: 20px 0 0;
+	border: 1px solid #e5e5e5;
+	border-right: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+#options-nav li {
+	margin: 0;
+	border-top: 1px solid #e5e5e5;
+	padding: 7px 10px;
+	background-color: #f1f1f1;
+}
+#options-nav li:first-child {
+	border-top: none;
+}
+#options-nav li.current {
+	background-color: #fff;
+}
+
+.options-wrap {
+	background: #fff;
+	display: none;
+}
+.options-wrap h3 {
+	margin: 0;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 7px 10px;
+}
+.options-wrap table {
+	margin: 10px;
+}
+
+.options-wrap-current {
+	display: block;
+}
+
+@media screen and (max-width: 782px){
+	#options-nav{
+		float: none;
+		width: 100%;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		overflow: hidden;
+		*zoom: 1;
+	}
+	#options-nav li,
+	#options-nav li:first-child{
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 1px solid #e5e5e5;
+		float: left;
+		width: 50%;
+		text-align: center;
+	}
+	#options-nav li:first-child{
+		border-right: 0;
+	}
+	#options-nav li.current{
+		border-bottom-color: #fff;
+	}
+	#custom-next-page-options form{
+		margin-top: 0;
+		padding-top: 10px;
+		border-top: 0;
+	}
+	.form-table td{
+		padding-left: 10px;
+	}
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 35092634fcdc0a551a1c52996ff11740e421e273

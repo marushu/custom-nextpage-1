@@ -1,0 +1,186 @@
+# Copyright (C) 2014 Custom Nextpage
+# This file is distributed under the same license as the Custom Nextpage package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Nextpage 0.9.8\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/custom-nextpage\n"
+"POT-Creation-Date: 2015-03-30 06:27:28+00:00\n"
+"PO-Revision-Date: 2015-03-30 15:28+0900\n"
+"Last-Translator: Webnist <webnist@webnist.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: custom-nextpage.php:53 custom-nextpage.php:69
+#: includes/class-admin-menu.php:358
+msgid "&#171;"
+msgstr "&#171;"
+
+#: custom-nextpage.php:54 custom-nextpage.php:70
+#: includes/class-admin-menu.php:357
+msgid "&#187;"
+msgstr "&#187;"
+
+#: custom-nextpage.php:55 custom-nextpage.php:71
+msgid "&gt;"
+msgstr "&gt;"
+
+#: custom-nextpage.php:56 custom-nextpage.php:72
+msgid "&lt;"
+msgstr "&lt;"
+
+#: includes/class-admin-editor.php:54
+msgid "Title:"
+msgstr "タイトル:"
+
+#: includes/class-admin-editor.php:60
+msgid "OK"
+msgstr "OK"
+
+#: includes/class-admin-editor.php:63
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. Plugin Name of the plugin/theme
+#: includes/class-admin-menu.php:15
+msgid "Custom Nextpage"
+msgstr "カスタムネクストページ"
+
+#: includes/class-admin-menu.php:44
+msgid "Set Custom Nextpage"
+msgstr "Custom Nextpage 設定"
+
+#: includes/class-admin-menu.php:54
+msgid "Convert to new options"
+msgstr "新しいオプションに変換します。"
+
+#: includes/class-admin-menu.php:55 includes/class-admin-menu.php:350
+msgid "Convert"
+msgstr "コンバート"
+
+#: includes/class-admin-menu.php:57
+msgid "Setting initialization"
+msgstr "設定の初期化"
+
+#: includes/class-admin-menu.php:58 includes/class-admin-menu.php:371
+msgid "Initialization"
+msgstr "初期化"
+
+#: includes/class-admin-menu.php:69
+msgid "General"
+msgstr "基本設定"
+
+#: includes/class-admin-menu.php:76
+msgid "Automatically replace the wp_link_pages."
+msgstr "自動で wp_link_pages を置き換える。"
+
+#: includes/class-admin-menu.php:88
+msgid "Before Text"
+msgstr "タイトルナビゲーションの前に入れるテキスト。"
+
+#: includes/class-admin-menu.php:99
+msgid "After Text"
+msgstr "タイトルナビゲーションの後ろに入れるテキスト。"
+
+#: includes/class-admin-menu.php:111
+msgid "Show all numbers"
+msgstr "全て表示"
+
+#: includes/class-admin-menu.php:122
+msgid "End size"
+msgstr "End size"
+
+#: includes/class-admin-menu.php:130
+msgid "How many numbers on either the start and the end list edges."
+msgstr "ページ番号のリストの両端(最初と最後)にいくつの数字を表示するか。"
+
+#: includes/class-admin-menu.php:135
+msgid "Mid size"
+msgstr "Mid size"
+
+#: includes/class-admin-menu.php:143
+msgid ""
+"How many numbers to either side of current page, but not including current "
+"page."
+msgstr ""
+"現在のページの両側にいくつの数字を表示するか。ただし現在のページは含みませ"
+"ん。"
+
+#: includes/class-admin-menu.php:148
+msgid "The first and last page links displayed."
+msgstr "最初と最後のリンクを表示する"
+
+#: includes/class-admin-menu.php:160
+msgid "Next and previous page links to display."
+msgstr "次と前のリンクを表示する"
+
+#: includes/class-admin-menu.php:172
+msgid "Text For First Page"
+msgstr "最初のページリンクのテキスト"
+
+#: includes/class-admin-menu.php:184
+msgid "Text For Last Page"
+msgstr "最後のページリンクのテキスト"
+
+#: includes/class-admin-menu.php:196
+msgid "Text For Next Page"
+msgstr "次のページリンクのテキスト"
+
+#: includes/class-admin-menu.php:208
+msgid "Text For Previous Page"
+msgstr "前のページリンクのテキスト"
+
+#: includes/class-admin-menu.php:220
+msgid "Style"
+msgstr "スタイル"
+
+#: includes/class-admin-menu.php:227
+msgid "Select Style type"
+msgstr "スタイルの選択"
+
+#: includes/class-admin-menu.php:234
+msgid "Default"
+msgstr "デフォルト"
+
+#: includes/class-admin-menu.php:235 includes/class-admin-menu.php:244
+msgid "Style Edit"
+msgstr "スタイル編集"
+
+#: includes/class-admin-menu.php:236
+msgid "Disable"
+msgstr "無効化"
+
+#: includes/class-admin-menu.php:252
+msgid ""
+"Press ctrl-space to activate autocompletion. <span class=\"button button-"
+"primary\" id=\"reset-css\">Reset</span>"
+msgstr ""
+"ctrl-space で自動補完が表示されます。 <span class=\"button button-primary\" "
+"id=\"reset-css\">CSSリセット</span>"
+
+#: includes/tinymce/plugins/customnextpage/langs/langs.php:5
+#: includes/tinymce/plugins/customnextpage/langs/langs.php:6
+msgid "Custom Nextpage Shortcode"
+msgstr "カスタムネクストページ"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/custom-nextpage/"
+msgstr "http://wordpress.org/plugins/custom-nextpage/"
+
+#. Description of the plugin/theme
+msgid "MultiPage is a customizable plugin. Can any title on the page."
+msgstr ""
+"マルチページをカスタマイズプラグインです。ページ送りの上に任意のタイトルを付"
+"けることができます。"
+
+#. Author of the plugin/theme
+msgid "Webnist"
+msgstr "Webnist"
+
+#. Author URI of the plugin/theme
+msgid "http://profiles.wordpress.org/webnist"
+msgstr "http://profiles.wordpress.org/webnist"

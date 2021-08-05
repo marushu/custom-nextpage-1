@@ -1,0 +1,22 @@
+.page-link-box {
+	text-align: center;
+}
+.custom-page-links {
+	padding: 5px 10px;
+	display: inline-block;
+}
+.custom-page-links a {
+	text-decoration: none;
+}
+.custom-page-links a span {
+	margin-right: 10px;
+}
+.page-links {
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+}
+.page-links li {
+	margin: 0 5px;
+	display: inline-block;
+}
