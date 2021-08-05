@@ -4,13 +4,13 @@ on:
     branches:
     - main
 jobs:
-  main:
+  master:
     name: Push to main
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
+    - uses: actions/checkout@master
     - name: WordPress.org plugin asset/readme update
-      uses: 10up/action-wordpress-plugin-asset-update@main
+      uses: 10up/action-wordpress-plugin-asset-update@master
       env:
         SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
         SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
