@@ -1,6 +1,6 @@
 === Custom Nextpage ===
 
-Contributors: Webnist,understandard,megumithemes
+Contributors: Webnist,understandard,megumithemes,marushu
 Tags: nextpage multipage
 Requires at least: 3.6
 Tested up to: 4.2.2
