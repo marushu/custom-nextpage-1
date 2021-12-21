@@ -2,9 +2,9 @@
 
 Contributors: Webnist,understandard,megumithemes
 Tags: nextpage multipage
-Requires at least: 3.6
+Requires at least: 3.9
 Tested up to: 4.2.2
-Version: 1.1.1
+Version: 1.2.0
 License: GPLv2 or later
 
 MultiPage is a customizable plugin

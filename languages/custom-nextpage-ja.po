@@ -162,8 +162,8 @@ msgstr ""
 "ctrl-space で自動補完が表示されます。 <span class=\"button button-primary\" "
 "id=\"reset-css\">CSSリセット</span>"
 
-#: includes/tinymce/plugins/customnextpage/langs/langs.php:5
-#: includes/tinymce/plugins/customnextpage/langs/langs.php:6
+#: admin/tinymce/plugins/customnextpage/langs/langs.php:5
+#: admin/tinymce/plugins/customnextpage/langs/langs.php:6
 msgid "Custom Nextpage Shortcode"
 msgstr "カスタムネクストページ"
 
