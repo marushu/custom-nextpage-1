@@ -1,0 +1,23 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "create-block/custom-nextpage",
+	"version": "0.1.0",
+	"title": "Custom Nextpage",
+	"category": "common",
+	"icon": "editor-insertmore",
+	"description": "Block for Custom Next Page shortcode.",
+	"supports": {
+		"html": false
+	},
+  	"attributes": {
+	  "linkText": {
+		"type": "string",
+		"default": ""
+	  }
+	},
+	"textdomain": "custom-nextpage",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "",
+	"style": ""
+}
