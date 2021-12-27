@@ -31,16 +31,15 @@ import {
 } from '@wordpress/components';
 
 export default function Edit( props ) {
-
 	const { attributes: { linkText }, className, setAttributes } = props;
 	const setText = (
 		<TextControl
-			label={ __( 'Title:' ) }
-			help={ __( 'Text to put before the title navigation' ) }
+			label={ __( 'Title:', 'custom-nextpage' ) }
+			help={ __( 'Text to put before the title navigation', 'custom-nextpage' ) }
 			className="user-link-text"
 			tagName="span"
 			value={ linkText }
-			placeholder={ __( "Enter the link text…" ) }
+			placeholder={ __( 'Enter the link text…', 'custom-nextpage' ) }
 			onChange={ ( newValue ) => {
 				props.setAttributes( {
 					linkText: newValue ? newValue : '',
@@ -53,7 +52,7 @@ export default function Edit( props ) {
 		<>
 			<Fragment>
 				<InspectorControls>
-					<PanelBody title={ __( 'Option' ) }>
+					<PanelBody title={ __( 'Option', 'custom-nextpage' ) }>
 						{ setText }
 					</PanelBody>
 				</InspectorControls>

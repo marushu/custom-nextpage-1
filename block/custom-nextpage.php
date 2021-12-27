@@ -26,3 +26,8 @@ function create_block_custom_nextpage_block_init() {
 	);
 }
 add_action( 'init', 'create_block_custom_nextpage_block_init' );
+
+function custom_nextpage_set_script_translations() {
+	wp_set_script_translations( 'custom-nextpage', '', plugin_dir_path( __FILE__ ) . '/languages/' );
+}
+add_action( 'init', 'custom_nextpage_set_script_translations' );

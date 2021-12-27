@@ -17,7 +17,8 @@
 	  }
 	},
 	"textdomain": "custom-nextpage",
-	"editorScript": "file:./build/index.js",
+	"editorScript": "file:build/index.js",
+  	"script": "marushu",
 	"editorStyle": "",
 	"style": ""
 }
