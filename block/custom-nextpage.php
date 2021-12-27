@@ -24,10 +24,22 @@ function create_block_custom_nextpage_block_init() {
 			'customNextPageImage' => plugins_url( '../admin/tinymce/plugins/customnextpage/img/custom-next-page.png', __FILE__ )
 		)
 	);
+
+	/**
+	 * Sets translated strings for added block.
+	 * This time I added a block to the existing plugin,
+	 * so be careful about specifying the path of the
+	 * /language/ directory.
+	 * Since wp_set_script_translations is specified
+	 * from the ./block/ directory, specify the parent directory.
+	 *
+	 * @see https://developer.wordpress.org/reference/functions/wp_set_script_translations/
+	 */
+	wp_set_script_translations(
+		'create-block-custom-nextpage-editor-script',
+		'custom-nextpage',
+		plugin_dir_path( __FILE__ ) . '../languages/'
+	);
+
 }
 add_action( 'init', 'create_block_custom_nextpage_block_init' );
-
-function custom_nextpage_set_script_translations() {
-	wp_set_script_translations( 'custom-nextpage', '', plugin_dir_path( __FILE__ ) . '/languages/' );
-}
-add_action( 'init', 'custom_nextpage_set_script_translations' );
