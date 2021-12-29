@@ -69,9 +69,17 @@ class CustomNextpage_Editor extends CustomNextpage_Init {
 		</div>
 		<?php
 	}
-	// add more buttons to the html editor
+
+	/**
+	 * Add more buttons to the html editor.
+     * This script is not loaded in the case of the block editor.
+     *
+     * @see https://developer.wordpress.org/reference/functions/has_blocks/
+     * @see https://developer.wordpress.org/reference/functions/has_block/
+     * @see /wp-includes/js/dist/block-library.js: 26308
+	 */
 	function quicktags() {
-		if ( ! wp_script_is( 'custom-nextpage-quicktags' ) ) {
+		if ( ! wp_script_is( 'custom-nextpage-quicktags' ) && ! has_blocks() && ! has_block( 'core/freeform' ) ) {
 			wp_enqueue_script( 'custom-nextpage-quicktags', $this->url . 'assets/admin/js/quicktags.js', array( 'quicktags' ), filemtime( $this->dir . 'assets/admin/js/quicktags.js' ), true );
 			?>
 			<script type="text/javascript">
